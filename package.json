@@ -1,0 +1,22 @@
+{
+  "name": "rate-limiter",
+  "version": "1.0.0",
+  "description": "Redis-backed rate limiter with Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pino": "^10.4.0",
+    "redis": "^6.3.0",
+    "zod": "^4.4.3"
+  }
+}

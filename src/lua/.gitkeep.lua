@@ -1,0 +1,3 @@
+-- src/lua/
+-- Lua scripts for Redis (e.g. atomic rate-limit checks) will live here.
+-- They are loaded at startup and executed via EVALSHA for performance.
